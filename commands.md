@@ -5,6 +5,8 @@ go mod init github.com/EvgeniyBudaev/microservices-in-go/front-end
 go mod init github.com/EvgeniyBudaev/microservices-in-go/broker-service
 go mod init github.com/EvgeniyBudaev/microservices-in-go/listener-service
 go mod init github.com/EvgeniyBudaev/microservices-in-go/authentication-service
+go mod init github.com/EvgeniyBudaev/microservices-in-go/logger-service
+go mod init github.com/EvgeniyBudaev/microservices-in-go/mail-service
 ```
 
 Chi
@@ -56,4 +58,22 @@ SQL
 go get github.com/jackc/pgconn
 go get github.com/jackc/pgx/v4
 go get github.com/jackc/pgx/v4/stdlib
+```
+
+Toolbox
+```
+go get -u github.com/tsawler/toolbox
+```
+
+Mongo
+Crypto
+```
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/mongo/options
+```
+
+Mail
+```
+go get github.com/vanng822/go-premailer/premailer
+go get github.com/xhit/go-simple-mail/v2
 ```
